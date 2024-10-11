@@ -1,0 +1,50 @@
+body{
+    color: white;
+    background-color: rgb(101, 118, 225);
+}
+h1{
+    margin-top: 50PX;
+}
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px;
+}
+
+.box {
+    border: 2px solid #333; 
+    padding: 20px;
+    display: inline-block; 
+    width: 200px; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    text-align: center; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.box:hover {
+    transform: scale(1.05); 
+}
+
+.logo {
+    width: 80px; 
+    height: auto; 
+}
+
+.box a {
+    text-decoration: none; 
+    color: #007BFF;
+    display: block; 
+    font-size: 18px; 
+    margin-top: 20px;
+}
+
+.description {
+    margin-top: 10px; 
+    font-size: 14px;
+    color: #666;
+}
+
